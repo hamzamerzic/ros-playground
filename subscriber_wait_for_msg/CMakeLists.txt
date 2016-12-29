@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(separate_measurement_thread)
+project(subscriber_wait_for_msg)
 
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)
 
@@ -12,9 +12,9 @@ catkin_package(
 ###########
 
 ## Declare a C++ executable
-add_executable(separate_measurement_thread_node src/separate_measurement_thread_node.cpp)
+add_executable(subscriber_wait_for_msg_node src/subscriber_wait_for_msg_node.cpp)
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(separate_measurement_thread_node
+target_link_libraries(subscriber_wait_for_msg_node
   ${catkin_LIBRARIES}
 )

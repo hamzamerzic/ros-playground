@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>separate_action_thread</name>
+  <version>0.0.1</version>
+  <description>The separate_action_thread package</description>
+
+  <maintainer email="hamzamerzic@gmail.com">Hamza Merzic</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>boost</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+</package>
